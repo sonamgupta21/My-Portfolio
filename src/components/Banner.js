@@ -58,10 +58,7 @@ const Banner = () => {
         </h2>
 
         <button onClick={() => console.log("connect")}>
-          <a
-            href={require("../Latest Sonam Resume.pdf")}
-            download="Sonam_Gupta_Resume"
-          >
+          <a href={require("../Sonam Gupta.pdf")} download="Sonam_Gupta_Resume">
             Download Resume
           </a>
         </button>
